@@ -2,70 +2,78 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Taller 9 Menú</title>
-  <link rel="stylesheet" href="./styles/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
 
 <body>
-  <div>
-    <h1> Taller unidad 9</h1>
-    <h2>Karen González</h2>
-    <nav>
-      <ul>
-        <li>
-          <p>
-            Punto 1-2-3: Proyecto Frontend
-          </p>
-          <a href="./punto-1-3/index.html">
-            Punto 1-3 Demo
-          </a>
-        </li>
-        <li>
-          <p>
-            Punto 4: Títulos
-          </p>
-          <a href="./punto-4/index-4.html">
-            Punto 4 Demo
-          </a>
-        </li>
-        <li>
-          <p>
-            Punto 5: Estilos de texto
-          </p>
-          <a href="./punto-5/index-5.html">
-            Punto 5 Demo
-          </a>
-        </li>
-        <li>
-          <p>
-            Punto 6: Enlaces
-          </p>
-          <a href="./punto-6/index-6.html">
-            Punto 6 Demo
-          </a>
-        </li>
-        <li>
-          <p>
-            Punto 7-8: Navegación
-          </p>
-          <a href="./punto-7-8/index-7-8.html">
-            Punto 7-8 Demo
-          </a>
-        </li>
-        <li>
-          <p>
-            Punto 9: Tablas
-          </p>
-          <a href="./punto-9/index-9.html">
-            Punto 9 Demo
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </div>
+    <header>
+        <section class="header1">
+            <img class="logo_main" src="./public/images/Verde-sin-fondo.png" alt="Logo_HolmesBPM">
+            <nav class="nav">
+                <ul>
+                    <li>
+                        Home
+                    </li>
+                    <li>
+                        <a class="ejercicios" href="#ejercicios">Ejercicios</a>
+                    </li>
+                    <li>
+                        Performance
+                    </li>
+                    <li>
+                        <a class="download__app" href="#apps">Download App</a>
+                    </li>
+                    <li>
+                        About
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section class="header2">
+            <h1 id="title_1">Hola soy Karen</h1>
+            <h1 id="title_2">Web design & development</h1>
+            <h4 id="title_3">Donec laoreet nec velit vitae aliquam. Ut quis tincidunt purus. <br>
+                Suspendisse in leo non risus tincidunt lobortis.</h4>
+        </section>
+    </header>
+
+    <section class="apps" id="apps">
+        <h6 class="titulo__apps">Download now on IOS and Adroid</h6>
+        <div class="logos_apps">
+            <a class="btn-store" href="https://www.apple.com/co/app-store/" rel="noopener" target="_blank">
+                <img id="img" src="./public/images/App_Store.png" alt="app_store">
+            </a>
+            <a class="btn-google" href="https://play.google.com/store/games?hl=es_CO&gl=US" rel="noopener" target="_blank">
+                <img id="google" src="./public/images/Google_Play.png" alt="app_google_play">
+            </a>
+        </div>
+    </section>
+
+    <section id="ejercicios">
+        <div class="separador">
+            <h3>¡Todos a la U!</h3>
+            <h2> desarrollo de Ejercicios actividad 9 <br> Karen Gonzalez <br> &#x1F447</h2>
+        </div>
+        <div class="cont_servi">
+            <select title="actividades" onchange="window.open(this.value, target='_blank'); location.reload();">
+                <option id="op_1" value="">Selecciona una opción</option>
+                 <option value="https://www.figma.com/file/GZZgAap9nAPJzI971L6yQN/Karen-Gonz%C3%A1lez-Proyecto-Figma?type=design&node-id=5%3A745&mode=design&t=jV0PJyj2SP6tQfeD-1 ">Figma</option>
+                <option value="./punto-1-3/index.html">Ejercicio 1-3</option>
+                <option value="./punto-4/ejercicio4.html">Ejercicio 4</option>
+                <option value="./punto-5/ejercicio5.html">Ejercicio 5</option>
+                <option value="./punto-6/ejercicio6.html">Ejercicio 6</option>
+                <option value="./punto-7-8/ejercicio7.html">Ejercicio 7-8</option>
+                <option value="./punto-9/ejercicio9.html">Ejercicio 9</option>
+                <option value="./punto-10/ejercicio10.html">Ejercicio 10</option>
+                <option value="./punto-11/ejercicio11.html">Ejercicio 11</option>
+                <option value="./punto-12/ejercicio12.html">Ejercicio 12</option>
+            </select>
+        </div>
+    </section>
 </body>
 
 </html>

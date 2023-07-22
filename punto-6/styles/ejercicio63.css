@@ -1,0 +1,29 @@
+body {
+    height: 100%;
+    padding: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 {
+    margin: 12%;
+    text-align: left;
+}
+
+.h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.h2 a{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: yellow;
+}
+
+.h3 a {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: purple;
+}

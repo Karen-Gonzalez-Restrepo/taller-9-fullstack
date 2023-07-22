@@ -1,0 +1,47 @@
+body {
+    height: 100%;
+    margin: 19%;
+    margin-top: center;
+    justify-content: center;
+    align-items: center; 
+}
+
+section {
+    margin: 10%;
+    align-items: center; 
+}
+
+p {
+    display: inline;
+}
+
+.p__verd_subr {
+    color: green;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.p__rojo {
+    color: red;
+    font-weight: bold;
+}
+
+.p__subr {
+    text-decoration: underline overline;
+}
+
+.p__negrita {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.p__azul {
+    color: blue;
+    font-weight: bold;
+}
+
+.p__rojo__subr {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}

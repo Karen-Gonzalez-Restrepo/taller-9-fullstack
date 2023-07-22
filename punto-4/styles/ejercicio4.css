@@ -1,0 +1,20 @@
+body {
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+}
+.section {
+    margin: 12%;
+    text-align: center;
+}
+
+.parrafo__azul {
+    font-size:  5rem;
+    color: blue;
+    font-weight: bold;
+}
+
+.Parrafo__rojo {
+    font-size:  5rem;
+    color: red;
+    font-weight: bold;
+}

@@ -11,3 +11,30 @@
 
 <h2>punto 2 HTML</h2>
 <img src="./public/images/Image html.png" alt="html">
+
+<h2>punto 3 css</h2>
+<img src="./public/images/css.png" alt="css">
+
+<h2>punto 4</h2>
+<img src="./public/images/punto4.png" alt="punto 4">
+
+<h2>punto 5</h2>
+<img src="./public/images/punto5.png" alt="punto 5">
+
+<h2>punto 6</h2>
+<img src="./public/images/punto6.png" alt="punto 6">
+
+<h2>punto 7</h2>
+<img src="./public/images/punto7-8.png" alt="punto 7-8">
+
+<h2>punto 9</h2>
+<img src="./public/images/punto9.png" alt="punto 9">
+
+<h2>punto 10</h2>
+<img src="./public/images/punto10.png" alt="punto 10">
+
+<h2>punto 11</h2>
+<img src="./public/images/punto11.png" alt="punto 11">
+
+<h2>punto 12</h2>
+<img src="./public/images/punto12.png" alt="punto12">

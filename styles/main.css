@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Resto del CSS... */
+
+/*ESTILOS DEL HEADER*/
+body {
+    background-color: #4b0c5c;
+    margin: 0;
+    display: block;
+}
+
+header {
+    background-color: #4779cf;
+    height: 100vh;
+    border-radius: 0px 0px 1000rem 0px;
+    display: auto;
+}
+
+.header1 {
+    height: 50%;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: auto;
+    padding: auto;
+}
+
+.header2  {
+    height: 50%;
+    padding: 10%;
+    position: relative;
+    top: -10rem;
+    color: darkgray;
+}
+
+#title_1 {
+    font-size: 6rem;
+    color: antiquewhite;
+}
+
+#title_2 {
+    font-size: 4rem;
+    color: #ccc;
+}
+
+#title_3 {
+    font-size: 1rem;
+}
+
+
+.nav {
+    height: 1rem; /* Ajusta la altura del nav */
+    margin-top: 1.5rem; /* Ajusta el margen superior del nav */
+    float: right;
+    margin-right: 3rem; /* Ajusta el margen derecho del nav */
+}
+
+.nav li {
+    display: inline-flex;
+    padding-right: 2rem; /* Ajusta el espacio entre los elementos del nav */
+    color: white;
+    text-shadow: black;
+    list-style: none;
+    font-size: 1.15rem; /* Ajusta el tamaño de fuente de los elementos del nav */
+    margin-top: 4rem; /* Ajusta el margen superior de los elementos del nav */
+    align-items: center;
+}
+
+.logo_main {
+    height: 17vw; /* Uso de vw para ajustar el tamaño del logo */
+    position: initial;
+}
+
+.apps {
+    height: 15vw;
+    display: auto;
+
+}
+
+.titulo__apps {
+    font-size: 1rem;
+    margin: 1.5rem 0 0 5%;
+    color: aliceblue;
+}
+
+.logos_apps {
+    margin: 1.5rem 0 0 4%;
+    height: 4vw; /* Uso de vw para ajustar el tamaño de los logos */
+    position: relative;
+    z-index: 2;
+    pointer-events: auto;
+}
+
+
+.logos_apps #img {
+    height: 100%;
+    border: 1px solid grey;
+    border-radius: 1vw; /* Uso de vw para ajustar el radio del borde */
+    box-shadow: -1vw 3vw 3.5vw 0px rgba(0, 0, 0, 0.75);
+    transition: 3s;
+    object-fit: cover;
+    margin: 0.5rem;
+}
+
+.logos_apps #google {
+    height: 100%;
+    border: 1px solid grey;
+    border-radius: 1vw; /* Uso de vw para ajustar el radio del borde */
+    box-shadow: -1vw 3vw 3.5vw 0px rgba(0, 0, 0, 0.75);
+    transition: 3s;
+    object-fit: cover;
+    margin: 0.5rem;
+}
+
+.logos_apps #img:hover,
+.logos_apps #google:hover {
+  transform: scale(1.1); /* Aplicamos el efecto de agrandamiento al pasar el cursor por encima */
+}
+
+/* Resto del CSS... */
+
+.ejercicios {
+    height: 0vh;
+    text-align: center;
+    color: aqua;
+    font-size: 1.3rem;
+}
+
+.cont_servi {
+    width: 80%;
+    height: 10vw; /* Uso de vw para ajustar la altura del contenedor */
+    margin: 0vw 0 0 10%; /* Uso de vw para ajustar el margen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+select {
+    padding: 1.5vw; /* Uso de vw para ajustar el relleno */
+    font-size: 1.6vw; /* Uso de vw para ajustar el tamaño del texto */
+    border: 1px solid #ccc;
+    border-radius: 1vw; /* Uso de vw para ajustar el radio del borde */
+    width: 60vw; /* Uso de vw para ajustar el ancho */
+}
+
+.separador {
+    text-align: center;
+    font-size: 2rem;
+    color: aqua;
+}
+
+#op_1 {
+    font-size: 1.5vw; /* Uso de vw para ajustar el tamaño del texto */
+    text-align: center;
+}
+
+.download__app {
+    text-decoration: none;
+    color: aliceblue;
+}

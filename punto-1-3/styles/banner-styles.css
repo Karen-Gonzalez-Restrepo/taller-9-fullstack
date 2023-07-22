@@ -1,0 +1,50 @@
+#banner{
+    display: flex;
+    margin: 25px 100px;
+    padding: 90px 80px;
+    gap: 20px;
+    background: linear-gradient(313.18deg, #EE9AE5 3.28%, #5961F9 97.04%);
+    border-radius: 48px 48px 300px 48px;
+}
+.banner__content{
+    flex: 1;
+    align-items: flex-start;
+}
+h1{
+    margin: 0;
+    color: #fff;
+    font-family: "Jost";
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: -0.64px;
+}
+#banner p{
+    margin: 25px 0px;
+    text-align: justify;
+    color: #fff;
+    line-height: 1.5; 
+}
+.banner__buttons{
+    display: flex;
+    gap: 20px;
+}
+.button--orange{
+    background-color: #fd909e;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button-white{
+    padding: 12px 25px;
+    margin: 0 10 px;
+    background-color: transparent;
+    color: #fff;
+    border:1px solid #fff;
+}
+#banner img{
+    width: 525px;
+    height: 350px;
+}
