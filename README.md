@@ -5,6 +5,9 @@
 <p>Curso: full Stack Basico - Grupo 1</p>
 <p>Profesor: Cristian Patiño</p>
 
+<h2>link de página</h2> 
+<a href="https://karen-gonzalez-restrepo.github.io/taller-9-fullstack/">link página</a>
+
 <h2> Punto 1: Link figma</h2>
 
 <a href="https://www.figma.com/file/GZZgAap9nAPJzI971L6yQN/Karen-Gonz%C3%A1lez-Proyecto-Figma?type=design&node-id=5%3A745&mode=design&t=jV0PJyj2SP6tQfeD-1 " target="_blank">Link de Figma</a>
